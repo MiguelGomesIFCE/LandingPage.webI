@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    background-color: green;
+    padding-top: 120px;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 31, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+    height: 120px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+ 
+  section {
+    margin-bottom: 40px;
+    margin-top: 10px; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    scroll-margin-top: 120px;
+  }
+  
+  h2 {
+    color: rgb(255, 31, 0);
+  }
+
+  #entreemcontato{
+    color: white;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1 1 250px;
+    background-color: #e0f2f1;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Rodapé e formulário */
+  footer {
+    background-color: #004d40;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #004d40;
+  }
+  
+  .social a {
+    color: #b2dfdb;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20; /* você pode querer trocar para 20px */
+  }
+  
+  .social a:hover {
+    text-decoration: underline;
+  }
+  
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .galeria img {
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .foto {
+    flex: 1 1 200px;
+    height: auto;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-style: italic;
+  }
+
+  
